@@ -1,0 +1,58 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background: linear-gradient(to bottom right, #e3f2fd, #fce4ec);
+  color: #333;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #81d4fa;
+  padding: 20px;
+  border-bottom: 5px solid #0288d1;
+}
+
+h1 {
+  margin: 0;
+  color: #01579b;
+}
+
+#abc-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.letter-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 10px;
+  transition: transform 0.3s;
+}
+
+.letter-card:hover {
+  transform: scale(1.05);
+}
+
+.letter {
+  font-size: 3rem;
+  margin: 0;
+  color: #ff4081;
+  cursor: pointer;
+  transition: color 0.5s, background 0.5s;
+  border-radius: 8px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background: #0288d1;
+  color: white;
+  padding: 10px;
+  font-size: 0.9rem;
+}
