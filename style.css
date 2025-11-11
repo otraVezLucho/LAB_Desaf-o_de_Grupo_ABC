@@ -29,6 +29,7 @@ h1 {
 
 .letter-card:hover {
   transform: scale(1.05);
+background: rgb(44, 246, 202);
 }
 
 h2 {
